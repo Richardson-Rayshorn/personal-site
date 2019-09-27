@@ -31,7 +31,7 @@ function navigation(){
         //     xmlhttp.open("GET", "assignment.php", true);
         //     xmlhttp.send();
         // }
-        if(anchor[i].id.click() === true){
+        if(anchor[i].click() === true){
             alert(anchor[i].id);
         }
         alert(i);
