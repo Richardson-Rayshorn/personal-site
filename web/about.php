@@ -4,7 +4,9 @@
           <div class="column first-col">
             <p>Hello, I am <br/> <span class="author-name">Rayshorn Richardson</span></p>
             <p>I\'m a Software Engineer.</p>
-            <a href="" class="button">View My Work <span class="arrow"><img src="./images/arrow.png" alt="Assignments"></span></a>
+            <a id="assignments" class="button">View My Work <span class="arrow" onClick="navWork(this)>
+              <img src="./images/arrow.png" alt="Assignments"></span>
+            </a>
           </div>
           <div class="column">
             <span><img src="./images/profile.png" alt="profile pic" class="profile-image"></span>

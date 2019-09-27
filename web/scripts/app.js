@@ -25,3 +25,8 @@ function navigation(e){
     }
 }
 
+function navWork(e){
+    xmlhttp.open("GET", e.id + ".php", true);
+    xmlhttp.send();
+}
+
