@@ -80,30 +80,30 @@ header nav{
 .visible-nav{
     visibility: visible;
     -webkit-animation-name: visible; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: .5s; /* Safari 4.0 - 8.0 */
     animation-name: visible;
-    animation-duration: 4s;
+    animation-duration: .5s;
 }
 
 @-webkit-keyframes invisible{
-    from {visibility: visible;}
-    to {visibility: hidden;}
+    from {visibility: hidden;}
+    to {visibility: visible;}
 }
 
 @keyframes invisible{
-    from {visibility: visible;}
-    to {visibility: hidden;}
+    from {visibility: hidden;}
+    to {visibility: visible;}
 }
 
 
 @-webkit-keyframes visible{
-    from {visibility: hidden;}
-    to {visibility: visible;}
+    from {visibility: visible;}
+    to {visibility: hidden;}
 }
 
 @keyframes visible{
-    from {visibility: hidden;}
-    to {visibility: visible;}
+    from {visibility: visible;}
+    to {visibility: hidden;}
 }
 
 header nav ul{
