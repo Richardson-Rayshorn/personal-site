@@ -63,6 +63,7 @@ header nav{
     position: absolute;
     color: black;
     background: white;
+    visibility: hidden;
     width: 100%;
     height: 100%;
     top: 0;
@@ -77,6 +78,7 @@ header nav{
 }
 
 .visible-nav{
+    visibility: visible;
     -webkit-animation-name: visible; /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
     animation-name: visible;
