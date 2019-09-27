@@ -74,6 +74,7 @@ header nav{
     -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
     animation-name: invisible;
     animation-duration: 4s;
+    animation-delay: 2s;
     
 }
 
@@ -86,24 +87,24 @@ header nav{
 }
 
 @-webkit-keyframes invisible{
-    from {visibility: hidden;}
-    to {visibility: visible;}
+    from {visibility: visible;}
+    to {visibility: hidden;}
 }
 
 @keyframes invisible{
-    from {visibility: hidden;}
-    to {visibility: visible;}
+    from {visibility: visible;}
+    to {visibility: hidden;}
 }
 
 
 @-webkit-keyframes visible{
-    from {visibility: visible;}
-    to {visibility: hidden;}
+    from {visibility: hidden;}
+    to {visibility: visible;}
 }
 
 @keyframes visible{
-    from {visibility: visible;}
-    to {visibility: hidden;}
+    from {visibility: hidden;}
+    to {visibility: visible;}
 }
 
 header nav ul{
