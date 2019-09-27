@@ -24,7 +24,7 @@ function navigation(){
             xmlhttp.open("GET", "about.php", true);
             xmlhttp.send();
         }
-        else if(anchor.id === "assignments"){
+        else if(anchor[i].id === "assignments"){
             xmlhttp.open("GET", "assignment.php", true);
             xmlhttp.send();
         }
