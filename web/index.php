@@ -12,7 +12,6 @@
   <div class="container">
     <span class="hamburger-icon" id="hamburger"><img src="./images/hamburger_menu_9163.png" alt="Menu"></span>
     <main id="app">
-      <?php include "about.php"; ?>
     </main>
   </div>
   <?php include_once 'footer.php'; ?>

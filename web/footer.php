@@ -11,6 +11,7 @@
     </div>
   </footer>
   <script src="./scripts/toggle.js"></script>
+  <script src="./scripts/app.js"></script>
 </body>
 </html>
     ';
