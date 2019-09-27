@@ -20,10 +20,8 @@ xmlhttp.open("GET", "about.php", true);
 xmlhttp.send();
 
 function navigation(e){
-    alert(e.id);
     var i = 0; 
     for(; i <= anchor.length; i++){
-        alert(i);
         if(anchor[i].id === e.id){
             xmlhttp.open("GET", e.id + ".php", true);
             xmlhttp.send();
