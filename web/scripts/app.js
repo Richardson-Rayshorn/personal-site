@@ -3,6 +3,7 @@ var app = document.getElementById("app");
 var anchor = document.querySelectorAll(".anchorTag");
 var i;                    
 for(i =0; i < anchor.length; i++){
+    alert(i);
     anchor[i].addEventListener("click", navigation);
 }
 
