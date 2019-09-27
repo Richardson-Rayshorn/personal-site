@@ -11,6 +11,5 @@ document.getElementById("close-menu").addEventListener("click", invisibleNav);
 function invisibleNav(){
     //get the navbar and toggle it
     var nav = document.getElementById("navbar");
-    nav.classList.add("invisible-nav");
     nav.classList.remove("visible-nav");
 }
