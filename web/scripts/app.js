@@ -34,7 +34,7 @@ function navigation(){
         if(anchor[i].clicked === true){
             alert(anchor[i].id);
         }
-        alert(anchor[i]);
+        alert(i);
     }
 }
 
