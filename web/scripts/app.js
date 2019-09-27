@@ -2,10 +2,10 @@ var app = document.getElementById("app");
 
 var anchor = document.querySelectorAll(".anchorTag");
 var i;                    
-for(i =0; i < anchor.length; i++){
-    alert(i);
-    anchor[i].addEventListener("click", navigation);
-}
+// for(i =0; i <= anchor.length; i++){
+//     alert(i);
+//     anchor[i].addEventListener("click", navigation);
+// }
 
 var xmlhttp = new XMLHttpRequest();
 
@@ -20,12 +20,12 @@ xmlhttp.send();
 
 function navigation(){
     alert(i);
-    for(; i < anchor.length; i++){
-        if(anchor[i].id === "about"){
+    for(i = 0; i < anchor.length; i++){
+        if(anchor[i].onclick == true && anchor[i].id == "about"){
             xmlhttp.open("GET", "about.php", true);
             xmlhttp.send();
         }
-        else if(anchor[i].id === "assignments"){
+        else if(anchor[i].onclick == true && anchor[i].id == "assignments"){
             xmlhttp.open("GET", "assignment.php", true);
             xmlhttp.send();
         }
