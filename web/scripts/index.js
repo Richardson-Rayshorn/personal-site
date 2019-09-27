@@ -1,5 +1,5 @@
 //Get the hamburger to make it clickable
-document.getElementById("hamburger").addEventListener("click", visibleNav;
+document.getElementById("hamburger").addEventListener("click", visibleNav);
 
 function visibleNav(){
     //get the navbar and toggle it
