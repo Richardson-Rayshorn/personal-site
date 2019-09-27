@@ -23,14 +23,9 @@ function navigation(e){
             break;
         }
     }
-
-    // e.id.addEventListener("click", invisibleNav);
-
-    // function invisibleNav(){
-    //     //get the navbar and toggle it
-        var nav = document.getElementById("navbar");
-        nav.classList.remove("visible-nav");
-    // }
+    
+    var nav = document.getElementById("navbar");
+    nav.classList.remove("visible-nav");
 }
 
 function navWork(e){
