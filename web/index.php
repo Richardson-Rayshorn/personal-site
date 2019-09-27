@@ -1,5 +1,5 @@
-
-<!DOCTYPE html>
+<?php include 'header.php'; ?>
+<!-- <!DOCTYPE html>
   <html lang="en">
   <head>
     <meta charset="UTF-8">
@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/index.css">
     <title>Personal Homepage</title>
-  </head>
+  </head> -->
   <body>
     <header>
       <nav>
