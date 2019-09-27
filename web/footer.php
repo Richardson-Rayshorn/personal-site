@@ -8,7 +8,7 @@
         for($i = 0; $i < $arr_length; $i++) {
           echo '<li><a class="anchorTag" id="'; 
           echo $menu_links[$i]; 
-          echo '" onClick="navigation()">';
+          echo '" onClick="navigation(this)">';
           echo $menu_links[$i]; 
           echo '</a></li>';
         }
