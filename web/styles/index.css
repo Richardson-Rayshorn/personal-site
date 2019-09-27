@@ -56,7 +56,7 @@ body{
     top: 7px;
 }
 
-nav{
+header nav{
     position: absolute;
     color: black;
     background: white;
@@ -69,11 +69,11 @@ nav{
     
 }
 
-nav ul{
+header nav ul{
     padding: 10px;
 }
 
-nav ul li{
+header nav ul li{
     list-style:none;
 }
 
@@ -96,4 +96,12 @@ main{
 .author-name{
     color:red;
     text-transform: uppercase;
+}
+
+/* Footer area */
+
+footer nav{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
