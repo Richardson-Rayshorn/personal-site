@@ -5,11 +5,41 @@ body{
     margin:0 !important;
 }
 
+.container{
+    position: relative;
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+.column{
+    margin: 1em 0;
+}
+
 .hamburger-icon img{
     width: 25px;
     background: white;
     padding: 10px;
     border-radius: 50%
+}
+
+.button{
+    color: white;
+    text-decoration: none;
+    border: 2px solid;
+    padding: 10px;
+}
+
+.arrow{
+    position: relative;
+    overflow: hidden;
+}
+
+.arrow img{
+    width: 25px;
+    background: white;
+    border-radius: 50%;
+    position: relative;
+    top: 7px;
 }
 
 nav{
@@ -39,12 +69,6 @@ nav ul li{
     border-bottom-right-radius: 10px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px; */
-
-.main-width{
-    position: relative;
-    max-width: 1120px;
-    margin: 0 auto;
-}
 
 main{
     color: white;

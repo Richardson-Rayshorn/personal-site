@@ -17,16 +17,16 @@
         </ul>
       </nav>
     </header>
-    <div class="main-width">
+    <div class="container">
       <span class="hamburger-icon"><img src="./images/hamburger_menu_9163.png" alt="Menu"></span>
       <main>
         <div>
-          <div>
+          <div class="column">
             <p>Hello, I'm Rayshorn Richardson</p>
             <p>I'm a Software Engineer.</p>
-            <a href="">View My Work <span><img src="./images/arrow.png" alt="Assignments"></span></a>
+            <a href="" class="button">View My Work <span class="arrow"><img src="./images/arrow.png" alt="Assignments"></span></a>
           </div>
-          <div>
+          <div class="column">
             <span><img src="" alt="profile pic"></span>
             <h2>Who am I?</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
