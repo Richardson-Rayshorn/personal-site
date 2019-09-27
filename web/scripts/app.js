@@ -20,7 +20,7 @@ xmlhttp.open("GET", "about.php", true);
 xmlhttp.send();
 
 function navigation(){
-    alert(i);
+    // alert(i);
     // alert(anchor.length);
     for(; i <= anchor.length; i++){
         // if(anchor[i].id == "about"){
@@ -34,7 +34,7 @@ function navigation(){
         if(anchor[i].clicked === true){
             alert(anchor[i].id);
         }
-        alert(anchor[i].id);
+        alert(anchor[i]);
     }
 }
 
