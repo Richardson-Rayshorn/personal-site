@@ -28,6 +28,7 @@ function navigation(){
             xmlhttp.open("GET", "assignment.php", true);
             xmlhttp.send();
         }
+        break;
     }
 }
 
