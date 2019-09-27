@@ -20,15 +20,17 @@ xmlhttp.send();
 
 function navigation(){
     alert(i);
-    alert(anchor[i].click);
     for(; i < anchor.length; i++){
-        if(anchor[i].onclick == true && anchor[i].id == "about"){
-            xmlhttp.open("GET", "about.php", true);
-            xmlhttp.send();
-        }
-        else if(anchor[i].onclick == true && anchor[i].id == "assignments"){
-            xmlhttp.open("GET", "assignment.php", true);
-            xmlhttp.send();
+        // if(anchor[i].id == "about"){
+        //     xmlhttp.open("GET", "about.php", true);
+        //     xmlhttp.send();
+        // }
+        // else if(anchor[i].onclick == true && anchor[i].id == "assignments"){
+        //     xmlhttp.open("GET", "assignment.php", true);
+        //     xmlhttp.send();
+        // }
+        if(anchor[i].clicked === true){
+            alert(anchor[i].id);
         }
     }
 }
