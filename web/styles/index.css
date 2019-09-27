@@ -73,18 +73,18 @@ header nav{
 }
 
 .invisible-nav{
-    -webkit-animation-name: invisible; /* Safari 4.0 - 8.0 */
+    -webkit-animation-name: visible; /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
-    animation-name: invisible;
+    animation-name: visible;
     animation-duration: 4s;
     animation-delay: 2s;
 }
 
 .visible-nav{
     visibility: visible;
-    -webkit-animation-name: visible; /* Safari 4.0 - 8.0 */
+    -webkit-animation-name: invisible; /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: .5s; /* Safari 4.0 - 8.0 */
-    animation-name: visible;
+    animation-name: invisible;
     animation-duration: .5s;
 }
 
