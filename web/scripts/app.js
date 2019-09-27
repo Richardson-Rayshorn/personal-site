@@ -3,7 +3,7 @@ var app = document.getElementById("app");
 var anchor = document.querySelectorAll(".anchorTag");
 var i;                    
 for(i =0; i < anchor.length; i++){
-    anchor[i].addEventListener("click", navigation);
+    anchor[i].addEventListener("click", navigation());
 }
 
 var xmlhttp = new XMLHttpRequest();
@@ -27,6 +27,8 @@ function navigation(){
     //     xmlhttp.send();
     // }
     alert("test");
-    alert(anchor[i].id);
+    for(i = 0; i < anchor.length; i++){
+        alert(anchor[i].id);
+    }
 }
 
