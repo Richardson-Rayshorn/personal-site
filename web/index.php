@@ -28,7 +28,7 @@
             <a href="" class="button">View My Work <span class="arrow"><img src="./images/arrow.png" alt="Assignments"></span></a>
           </div>
           <div class="column">
-            <span><img src="./images/profile.png" alt="profile pic"></span>
+            <span><img src="./images/profile.png" alt="profile pic" class="profile-image"></span>
             <h2>My Journey</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
               ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 

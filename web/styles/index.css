@@ -79,8 +79,16 @@ nav ul li{
 
 main{
     color: white;
+    margin:2em 0;
 }
 
 .first-col p{
     font-size: 30px;
+}
+
+.rofile-image{
+    width: 30%;
+    margin: 0 auto;
+    float: left;
+    padding: 11px;
 }
