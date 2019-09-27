@@ -18,8 +18,8 @@ xmlhttp.open("GET", "about.php", true);
 xmlhttp.send();
 
 function navigation(){
-    var i;
-    for(i = 0; i < anchor.length; i++){
+    alert(i);
+    for(; i < anchor.length; i++){
         if(anchor[i].id === "about"){
             xmlhttp.open("GET", "about.php", true);
             xmlhttp.send();
