@@ -42,6 +42,11 @@ nav ul li{
     background: white;
     border-radius: 50%;
     margin-top: 1em;
+    cursor: pointer;
+}
+
+#close-menu{
+    cursor: pointer;
 }
 
 .button{
@@ -49,6 +54,7 @@ nav ul li{
     text-decoration: none;
     border: 2px solid;
     padding: 10px;
+    cursor: pointer;
 }
 
 .arrow{
@@ -100,6 +106,7 @@ header nav ul{
 
 header nav ul li{
     list-style:none;
+    padding: .5em;
 }
 
 main{
