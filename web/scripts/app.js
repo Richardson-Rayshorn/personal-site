@@ -27,6 +27,6 @@ function navigation(){
     //     xmlhttp.send();
     // }
     alert("test");
-    alert(anchor.id);
+    alert(anchor[i].id);
 }
 
