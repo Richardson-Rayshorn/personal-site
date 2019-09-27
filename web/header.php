@@ -1,5 +1,5 @@
 <?php
-    $menu_links = array('About', 'Assignments');
+    $menu_links = array('about', 'assignments');
     $arr_length = count($menu_links);
 
     echo '<!DOCTYPE html>

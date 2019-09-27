@@ -37,6 +37,10 @@ nav ul li{
     cursor: pointer;
 }
 
+nav ul li a{
+    text-transform: capitalize;
+}
+
 .hamburger-icon img{
     padding: 10px;
     background: white;
