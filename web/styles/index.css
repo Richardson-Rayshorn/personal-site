@@ -5,7 +5,7 @@ body{
     margin:0 !important;
 }
 
-.hamburger-icon{
+.hamburger-icon img{
     width: 25px;
     background: white;
     padding: 10px;
@@ -23,6 +23,14 @@ nav{
     text-align: center;
     font-size: 30px; */
     
+}
+
+nav ul{
+    padding: 10px;
+}
+
+nav ul li{
+    list-style:none;
 }
 
 /* border-right: 4px solid yellow !important;
