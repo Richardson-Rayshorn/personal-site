@@ -10,7 +10,7 @@
       </nav>
     </div>
   </footer>
-  <script src="./scripts/index.js"></script>
+  <script src="./scripts/toggle.js"></script>
 </body>
 </html>
     ';
