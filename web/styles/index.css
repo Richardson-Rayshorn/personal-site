@@ -117,3 +117,8 @@ footer .container nav ul{
     flex-wrap: wrap;
     flex-direction: row;
 }
+
+footer .container nav ul li{
+    list-style: none;
+    padding: 0 1.5em;
+}
