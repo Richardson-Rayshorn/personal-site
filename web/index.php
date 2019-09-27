@@ -9,28 +9,30 @@
     <title>Personal Homepage</title>
   </head>
   <body>
-    <head>
-      <span class="hamburger-icon"><img src="./images/hamburger_menu_9163.png" alt="Menu"></span>
+    <header>
       <nav>
         <ul>
           <li>About</li>
           <li>Assignments</li>
         </ul>
       </nav>
-    </head>
-    <main>
-      <div>
+    </header>
+    <div class="main-width">
+      <span class="hamburger-icon"><img src="./images/hamburger_menu_9163.png" alt="Menu"></span>
+      <main>
         <div>
-          <p>Hello, I'm Rayshorn Richardson</p>
-          <p>I'm a Software Engineer.</p>
-          <a href="">View My Work <span><img src="./images/arrow.png" alt="Assignments"></span></a>
+          <div>
+            <p>Hello, I'm Rayshorn Richardson</p>
+            <p>I'm a Software Engineer.</p>
+            <a href="">View My Work <span><img src="./images/arrow.png" alt="Assignments"></span></a>
+          </div>
+          <div>
+            
+          </div>
         </div>
-        <div>
-           
-        </div>
-      </div>
-    </main>
-    <footer></footer>
+      </main>
+      <footer></footer>
+    </div>
     <script src="./scripts/index.js"></script>
   </body>
   </html>
