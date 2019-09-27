@@ -6,7 +6,7 @@ function visibleNav(){
     document.getElementById("navbar").classList.add("visible-nav");
 }
 
-document.getElementById("close-menu").addEventListener("click", invisibleNav;
+document.getElementById("close-menu").addEventListener("click", invisibleNav);
 
 function invisibleNav(){
     //get the navbar and toggle it
