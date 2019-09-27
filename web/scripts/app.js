@@ -2,11 +2,6 @@ var app = document.getElementById("app");
 
 var parentEle = document.getElementById("header-nav");
 var anchor = parentEle.querySelectorAll(".anchorTag");
-                   
-// for(; i <= anchor.length; i++){
-//     alert(i);
-//     anchor[i].addEventListener("click", navigation);
-// }
 
 var xmlhttp = new XMLHttpRequest();
 
