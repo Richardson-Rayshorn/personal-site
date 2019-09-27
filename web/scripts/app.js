@@ -1,6 +1,7 @@
 var app = document.getElementById("app");
 
-var anchor = document.querySelectorAll(".anchorTag");
+var parentEle = document.getElementById("header-nav");
+var anchor = parentEle.querySelectorAll(".anchorTag");
 var i = 0;                    
 // for(i =0; i <= anchor.length; i++){
 //     alert(i);

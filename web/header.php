@@ -16,7 +16,7 @@
   <header>
     <nav id="navbar">
       <img src="./images/close-512.png" alt="Close" id="close-menu">
-      <ul>';
+      <ul id="header-nav">';
       for($i = 0; $i < $arr_length; $i++) {
         echo '<li><a class="anchorTag" id="'; 
         echo $menu_links[$i]; 
