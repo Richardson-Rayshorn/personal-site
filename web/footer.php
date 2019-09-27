@@ -4,10 +4,15 @@
     <footer>
     <div class="container">
       <nav>
-        <ul>
-          <li>About</li>
-          <li>Assignments</li>
-        </ul>
+        <ul>';
+        for($i = 0; $i < $arr_length; $i++) {
+          echo '<li><a id="'; 
+          echo $menu_links[$i]; 
+          echo '">';
+          echo $menu_links[$i]; 
+          echo '</a></li>';
+        }
+        echo '</ul>
       </nav>
     </div>
   </footer>
