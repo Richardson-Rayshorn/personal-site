@@ -33,6 +33,10 @@ img{
     width: 25px;
 }
 
+nav ul li{
+    cursor: pointer;
+}
+
 .hamburger-icon img{
     padding: 10px;
     background: white;
