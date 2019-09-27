@@ -73,7 +73,7 @@ header nav{
 }
 
 .visible-nav{
-    visibility: visible;
+    visibility: visible !important;
 }
 
 header nav ul{
