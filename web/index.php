@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/index.css">
     <title>Personal Homepage</title>
   </head>
@@ -20,8 +21,8 @@
     <div class="container">
       <span class="hamburger-icon"><img src="./images/hamburger_menu_9163.png" alt="Menu"></span>
       <main>
-        <div>
-          <div class="column">
+        <div class="grid-col-2">
+          <div class="column first-col">
             <p>Hello, I'm Rayshorn Richardson</p>
             <p>I'm a Software Engineer.</p>
             <a href="" class="button">View My Work <span class="arrow"><img src="./images/arrow.png" alt="Assignments"></span></a>
