@@ -23,7 +23,7 @@
         <div>
           <p>Hello, I'm Rayshorn Richardson</p>
           <p>I'm a Software Engineer.</p>
-          <a href="">View My Work <span><img src="arrow.png" alt="Assignments"></span></a>
+          <a href="">View My Work <span><img src="./images/arrow.png" alt="Assignments"></span></a>
         </div>
         <div>
            
