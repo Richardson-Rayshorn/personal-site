@@ -18,17 +18,16 @@ xmlhttp.open("GET", "about.php", true);
 xmlhttp.send();
 
 function navigation(){
-    // if(anchor.id === "about"){
-    //     xmlhttp.open("GET", "about.php", true);
-    //     xmlhttp.send();
-    // }
-    // else if(anchor.id === "about"){
-    //     xmlhttp.open("GET", "about.php", true);
-    //     xmlhttp.send();
-    // }
     alert("test");
     for(i = 0; i < anchor.length; i++){
-        alert(anchor[i].id);
+        if(anchor[i].id === "about"){
+            xmlhttp.open("GET", "about.php", true);
+            xmlhttp.send();
+        }
+        else if(anchor.id === "assignments"){
+            xmlhttp.open("GET", "assignment.php", true);
+            xmlhttp.send();
+        }
     }
 }
 
