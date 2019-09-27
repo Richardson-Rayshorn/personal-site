@@ -79,7 +79,7 @@ header nav ul li{
 
 main{
     color: white;
-    margin:2em 0;
+    margin:2em 0 5em;
 }
 
 .first-col p{
@@ -100,7 +100,19 @@ main{
 
 /* Footer area */
 
-footer nav{
+footer{
+    background: #040509;
+    padding: 1px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer .container nav{
+    color: white;
+}
+
+footer .container nav ul{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
