@@ -27,6 +27,7 @@ function navigation(e){
         if(anchor[i].id === e.id){
             xmlhttp.open("GET", e.id + ".php", true);
             xmlhttp.send();
+            break;
         }
     }
 }
