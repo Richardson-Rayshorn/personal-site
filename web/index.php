@@ -10,7 +10,6 @@
   </head>
   <body>
     <head>
-      <span><img src="./images/hamburger_menu_9163.png" alt="Menu"></span>
       <nav>
         <ul>
           <li>About</li>
@@ -18,6 +17,7 @@
         </ul>
       </nav>
     </head>
+    <span class="hamburger-icon"><img src="./images/hamburger_menu_9163.png" alt="Menu"></span>
     <main>
       <div>
         <div>
