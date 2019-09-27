@@ -1,12 +1,24 @@
-<?php include_once 'header.php'; ?>
+<?php include_once 'header.php'; 
+$menu_links = array('about', 'assignments');
+$arr_length = count($menu_links);
+?>
 <body>
   <header>
     <nav id="navbar">
       <img src="./images/close-512.png" alt="Close" id="close-menu">
-      <ul>
-        <li><a href="/">About</a></li>
-        <li><a href="">Assignments</a></li>
-      </ul>
+      <?php 
+
+      for($i = 0; $i < $arr_length; $i++) {
+        echo '<ul>
+                  <li><a id="'; 
+        echo $menu_links[$i]; 
+        echo '">';
+        echo $menu_links[$i]; 
+        echo '</a></li>
+              </ul> ';
+      }
+
+      ?>
     </nav>
   </header>
   <div class="container">
