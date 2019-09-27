@@ -23,7 +23,7 @@
       <main>
         <div class="grid-col-2">
           <div class="column first-col">
-            <p>Hello, I am <br/> Rayshorn Richardson</p>
+            <p>Hello, I am <br/> <span class="author-name">Rayshorn Richardson</span></p>
             <p>I'm a Software Engineer.</p>
             <a href="" class="button">View My Work <span class="arrow"><img src="./images/arrow.png" alt="Assignments"></span></a>
           </div>

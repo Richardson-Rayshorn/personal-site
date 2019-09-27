@@ -92,3 +92,8 @@ main{
     float: left;
     padding: 11px;
 }
+
+.author-name{
+    color:red;
+    text-transform: uppercase;
+}
