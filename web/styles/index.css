@@ -70,12 +70,14 @@ header nav{
     z-index: 99;
     text-align: center;
     font-size: 30px;
+}
+
+.invisible-nav{
     -webkit-animation-name: invisible; /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
     animation-name: invisible;
     animation-duration: 4s;
     animation-delay: 2s;
-    
 }
 
 .visible-nav{
