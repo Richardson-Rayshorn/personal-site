@@ -1,6 +1,6 @@
 var app = document.getElementById("app");
 
-var anchor = document.querySelector(".anchorTag")
+var anchor = document.querySelectorAll(".anchorTag")
                     .addEventListener("click", navigation);
 
 var xmlhttp = new XMLHttpRequest();
