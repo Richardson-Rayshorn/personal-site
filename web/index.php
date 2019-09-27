@@ -11,7 +11,8 @@
   </head> -->
   <body>
     <header>
-      <nav>
+      <nav id="navbar">
+        <img src="./images/close-512.png" alt="Close" id="close-menu">
         <ul>
           <li>About</li>
           <li>Assignments</li>
@@ -19,7 +20,7 @@
       </nav>
     </header>
     <div class="container">
-      <span class="hamburger-icon"><img src="./images/hamburger_menu_9163.png" alt="Menu"></span>
+      <span class="hamburger-icon" id="hamburger"><img src="./images/hamburger_menu_9163.png" alt="Menu"></span>
       <main>
         <div class="grid-col-2">
           <div class="column first-col">
