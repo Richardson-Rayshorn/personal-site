@@ -1,8 +1,6 @@
 var app = document.getElementById("app");
-
 var parentEle = document.getElementById("header-nav");
 var anchor = parentEle.querySelectorAll(".anchorTag");
-
 var xmlhttp = new XMLHttpRequest();
 
 xmlhttp.onreadystatechange = function(){
@@ -14,6 +12,7 @@ xmlhttp.onreadystatechange = function(){
 xmlhttp.open("GET", "about.php", true);
 xmlhttp.send();
 
+//On click functions for Ajax requests.
 function navigation(e){
     var i = 0; 
     for(; i <= anchor.length; i++){
@@ -23,7 +22,7 @@ function navigation(e){
             break;
         }
     }
-    
+
     var nav = document.getElementById("navbar");
     nav.classList.remove("visible-nav");
 }
